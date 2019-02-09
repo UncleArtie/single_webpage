@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+    <!--<![endif]-->
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>One page website</title>
+        <meta name="description" content="single page website for home repair">
+        <meta name="author" content="JWLyons">
+        <meta name="keywords" content="contractor, home repair">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- no separate CSS file for one page website -->
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                background-color: rgb(189, 240, 250);
+            }
+
+            .topBox {
+                background-color: blue;
+                color: white;
+                border-radius: 10px;
+            }
+
+            h1 {
+                margin: auto;
+                text-align: center;
+            }
+
+            h2 {
+                margin: auto;
+                text-align: center;
+            }
+
+            h3 {
+                margin: auto;
+                text-align: center;
+            }
+
+            .container {
+                text-align: center;
+            }
+
+            ul {
+                text-align: center;
+                list-style-type: disc;
+            }
+
+            li {
+                display: inline-block;
+                padding-left: 16px;
+                font-style: italic;
+            }
+
+            ul.locations li::before {
+                content: "•";
+                /* Insert content that looks like bullets */
+                padding-right: 8px;
+                color: white;
+                font-weight: bolder;
+                font-size: 1.3em;
+            }
+
+            ul.jobList li {
+                font-weight: bolder;
+                font-size: 1.3em;
+            }
+
+            @media screen and (max-width: 480px) {
+                .ul {
+                    text-align: justify;
+                }
+
+                ul.jobList {
+                    margin-right: 23px;
+                }
+
+                ul.jobList li {
+                    margin-right: 20px;
+                    padding-right: 14px;
+                }
+            }
+
+            .personalMessage {
+                max-width: 600px;
+                margin: auto;
+                text-align: left;
+            }
+
+            p {
+                font-size: 1.2em;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container">
+            <div class="topBox">
+                <h1>HOME REPAIR</h1>
+
+                <h2>David Callahan Construction</h2>
+                <h3>Specializing in Home Repair</h3>
+                <ul class="locations">
+                    <li>Carmel</li>
+                    <li>Pebble Beach</li>
+                    <li>Pacific Grove</li>
+                    <li>Monterey</li>
+                </ul>
+            </div>
+            <div class="personalMessage">
+                <p><strong>Dear Realtors and Homeowners,</strong></p>
+                <p>I am a licensed and insured General Building Contractor with 28 years of
+                    experience. I am available to assist you with satisfying your termite and
+                    home inspection reports as well as any other home repair needs. I have all
+                    the required tools and expertise to perform:</p>
+            </div>
+
+            <ul class="jobList">
+                <li>Electrical</li>
+                <li>Plumbing</li>
+                <li>Carpentry</li>
+                <li>Tile</li>
+                <li>Drywall</li>
+                <li>Painting</li>
+                <li>Fencing</li>
+                <li>Roofing</li>
+                <li>Decking</li>
+                <li>Dry-Rot Repairs</li>
+            </ul>
+
+            <p>I look forward to providing you with free estimates, service and the satisfaction you deserve.</p>
+            <p>(831) 521-2573</p>
+            <a href="">Web Address</a>
+        </div>
+
+        <!-- <script src="" async defer></script> No JavaScript on page-->
+
+    </body>
+
+</html>
